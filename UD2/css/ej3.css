@@ -1,0 +1,39 @@
+* {
+    font-family: Freemono, sans-serif;
+}
+
+h1 {
+    caption-side: top;
+    font-size: 2em;
+    color: #a7ff43;
+    letter-spacing: 0.10em;
+    text-align: center;
+}
+
+table {
+    margin: 1 auto;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table tr td {
+    border: 3px solid #ff5a43;
+    padding: 0.7em;
+}
+
+tr:nth-child(odd) {
+    background-color: #ebff43;
+}
+
+tr:nth-child(even) {
+    background-color: #ffb843;
+}
+
+table tr th {
+    border: 3px solid #fb4f17;
+}
+
+table tr td:hover {
+    background-color: #003b6f;
+    color: white;
+}

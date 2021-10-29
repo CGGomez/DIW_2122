@@ -1,0 +1,10 @@
+ul{
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px black;
+}
+
+li:hover{
+    color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+
+#actores, li{
+    text-align:left;
+    list-style-image: url('/img/estrella.png');
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#sipnosis{
+    text-indent: 10px;
+}
+
+a:hover{
+    background-color: red;
+}

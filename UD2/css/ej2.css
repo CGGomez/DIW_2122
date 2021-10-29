@@ -1,0 +1,19 @@
+td:hover{
+    background-color: aquamarine;
+}
+
+table, td, th{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black 1px;
+    border-spacing: 0px;
+}
+
+img{
+    float: left;
+}
+
+th{
+    background-color: cornflowerblue;
+}

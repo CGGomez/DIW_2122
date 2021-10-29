@@ -1,0 +1,11 @@
+* {
+    font-family: FreeSans, Helvetica, sans-serif;
+}
+
+form {
+    border: 2px dotted #dc17fb;
+}
+
+form label::first-letter {
+    text-transform: capitalize;
+}

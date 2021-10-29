@@ -1,0 +1,24 @@
+footer{
+    clear: both;
+    position: relative;
+    margin-top: -200px;
+    text-align: center;
+    background-color: aqua;
+}
+
+header{
+    background-color: burlywood;
+    text-align: center;
+}
+
+section{
+    background-color: gray;
+    float: right;
+    width: 100%;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background-color: lightgreen;
+}
