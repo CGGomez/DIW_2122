@@ -1,0 +1,147 @@
+html{
+    font-family: "Fritz Quadrata" Regular;
+    background-color:  #6ec168; 
+}
+
+.vision{
+    display: none;
+}
+
+input:focus{
+    border-color: #c9dc2d;
+}
+
+#casilla{
+    border:solid 1px turquoise transparent ;
+}
+
+#casilla:hover{
+    border:solid 1px turquoise ;
+    -moz-box-shadow:    inset 0 0 10px #5a81f3;
+    -webkit-box-shadow: inset 0 0 10px #5a81f3;
+    box-shadow:         inset 0 0 10px #5a81f3;
+}
+
+button{
+    float: right;
+    background-color:  #11a517 ;
+}
+
+button img{
+    width: 70px;
+    height: 70px;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    background-image: url("Imagenes/drt.jpg");
+    text-align: center;
+    color: white;
+} 
+
+.cards{
+    margin-top: 30px;
+}
+
+.c1,.c2, .c3, .c4, .c5{
+    width: 200px;
+    height: auto;
+}
+
+div img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1:hover{
+    transform: rotate(20deg);
+}
+
+.c2:hover{
+    transform: rotate(20deg);
+}
+
+.c3:hover{
+    transform: rotate(20deg);
+}
+
+.c4:hover{
+    transform: rotate(20deg);
+}
+
+.c5:hover{
+    transform: rotate(20deg);
+}
+
+@media only screen and (min-width: 390px) and (max-width: 790px) {
+    .tablero {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 10px;
+        background-image: url("Imagenes/drt.jpg");
+        text-align: center;
+        color: white;
+    } 
+    
+    .vision{
+        display: none;
+    }
+    .cards{
+        display: inline;
+    }
+
+    div img{
+        margin-top: 40px;
+    }
+
+    .c1,.c2, .c3, .c4, .c5{
+        width: 70px;
+        height: auto;
+    }
+
+    button img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .c1,.c2, .c3, .c4, .c5{
+        display: none;
+    }
+
+    button img{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+
+    .tablero{
+        display: none;
+    }
+
+    input{
+        display: none;
+    }
+
+    .vision{
+        display: inline;
+    }
+
+    p{
+        display: none;
+    }
+
+    html{
+        background-color: white;
+    }
+}

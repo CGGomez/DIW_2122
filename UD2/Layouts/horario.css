@@ -1,0 +1,61 @@
+.flex-container {
+    padding: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#horas.flex-item{
+    background-color:  #b2b2b2;
+}
+
+#cc.flex-item{
+    background-color:  red;
+    color: white;
+}
+
+#hydro.flex-item{
+    background-color: #39b0f9;
+    color: white;
+}
+
+#bp.flex-item{
+    background-color:  #f9be39;
+    color: white;
+}
+
+
+.flex-item {
+    background: #616061 ;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    
+    line-height: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+}
+
