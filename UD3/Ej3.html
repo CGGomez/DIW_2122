@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones Web</title>
+    <style>
+        .move {
+            animation-name: background_move;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+
+        /* Especificación de la animación "background_move" */
+        @keyframes background_move {
+            from {
+                background-position-x: 0%;
+            }
+
+            to {
+                background-position-x: 100%;
+            }
+        }
+
+        .slider_lapices {
+            width: 100px;
+            height: 415px;
+            background-image: url("Img/KarmaC.png");
+            box-shadow: 0px 0px 6px #777; 
+        }
+		
+		.slider_hojas {
+            width: 100px;
+            height: 415px;
+            background-image: url("Img/PoppyC.png");
+            box-shadow: 0px 0px 6px #777;
+            background-position-y: 50%; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider_lapices move"></div>
+    <div class="slider_hojas move"></div>
+</body>
+
+</html>
