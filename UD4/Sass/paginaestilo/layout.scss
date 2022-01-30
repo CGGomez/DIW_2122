@@ -1,0 +1,35 @@
+@import "base.scss";
+
+body{
+    display: grid;
+    grid-template-columns: 2;
+    header{
+        width: 100%;
+
+        input{
+            float: right;
+        }       
+    }
+    @include tablet(){
+        body{
+            display: grid;
+            grid-template-columns: 1;
+            font-size: small;
+
+            header{
+                font-family: $letrero;
+                width: 100%;
+        
+                input{
+                    float: right;
+                }       
+            }
+        }
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }

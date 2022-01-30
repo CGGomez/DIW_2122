@@ -1,0 +1,15 @@
+.icono{
+    color: #0090B2;
+}
+
+.incono :hover{
+  color: #0090B2;  
+}
+
+.icono :active{
+    color: #FF7A00;
+}
+
+.icono .special:hover{
+    color: #0090B2;
+}

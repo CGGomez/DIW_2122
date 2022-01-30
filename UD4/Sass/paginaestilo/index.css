@@ -1,0 +1,33 @@
+@import url(layout.scss);
+body {
+  background-color: linear-gradient(80deg, yellow 0%, #8FFF00 100%);
+}
+body header {
+  background-color: yellow;
+  border: solid 5px;
+  font-family: "Vast Shadow Regular";
+}
+body header input {
+  border-radius: 14%;
+}
+body header h6 {
+  font-size: 15px;
+}
+body header button {
+  border: solid 3px red;
+  background-color: #F1F85A;
+}
+body footer {
+  background-color: yellow;
+  border: solid 5px;
+}
+
+.logo {
+  width: 150px;
+}
+
+img {
+  width: 30%;
+}
+
+/*# sourceMappingURL=index.css.map */

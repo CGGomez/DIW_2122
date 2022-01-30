@@ -1,0 +1,37 @@
+@import "base.scss";
+@import url(layout.scss);
+
+body{
+    background-color: $fondo;
+    header{
+        background-color: $cabpie;
+        border: $borde;
+        font-family: $letrero;
+
+        input{
+            border-radius: 14%;
+        }
+
+        h6{
+            font-size: $pieh6;
+        }
+
+        button{
+            border: $bordeboton;
+            background-color: #F1F85A;
+        }
+    }
+    
+    footer{
+        background-color: $cabpie;
+        border: $borde;
+    }
+}
+
+.logo{
+    width: 150px;
+}
+
+img{
+    width: $imancha;
+}
